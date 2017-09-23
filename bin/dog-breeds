@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+# require 'bundler/setup'
+# require 'dog_breeds'
+# DogBreeds::CLI.new.call
+
+require_relative '../lib/dog_breeds'
+
+DogBreeds::CLI.new.call
